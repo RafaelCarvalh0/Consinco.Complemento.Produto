@@ -1,6 +1,6 @@
 <Solution>
   <Folder Name="/Database/">
-    <File Path="Setup.sql" />
+    <File Path="Database/Setup.sql" />
   </Folder>
   <Folder Name="/Database/Seeds/">
     <File Path="Database/Seeds/produto_seeds.sql" />
