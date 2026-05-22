@@ -184,7 +184,7 @@ Definir `Consinco.Complemento.Produto.UI` como **Startup Project** e pressionar 
 ```
 📁 Solution
 │
-├── 📁 Database                              ← pasta na raiz da solution
+├── 📁 Database                             
 │   ├── Seeds/
 │   │   └── produto_seeds.sql
 │   ├── StoredProcedures/
