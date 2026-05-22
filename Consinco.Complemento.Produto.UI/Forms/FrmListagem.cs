@@ -195,7 +195,7 @@ namespace Consinco.Complemento.Produto.UI.Forms
         {
             if (e.RowIndex < 0) return;
 
-            ComplementoGridRowVM row = dgvComplementos.Rows[e.RowIndex].DataBoundItem as ComplementoGridRowVM;
+            if (!(dgvComplementos.Rows[e.RowIndex].DataBoundItem is ComplementoGridRowVM row)) return;
 
             if (e.ColumnIndex == dgvComplementos.Columns["colEditar"].Index)
             {
