@@ -1,5 +1,7 @@
 <Solution>
-  <Folder Name="/Database/" />
+  <Folder Name="/Database/">
+    <File Path="Setup.sql" />
+  </Folder>
   <Folder Name="/Database/Seeds/">
     <File Path="Database/Seeds/produto_seeds.sql" />
   </Folder>
